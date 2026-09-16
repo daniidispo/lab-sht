@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main(){
   int n,i, num;
-  int sum;
+  int sum = 0;
   float avg;
-  print("How many numbers to find avg and sum of: ")
+  printf("How many numbers to find avg and sum of: ");
   scanf("%d", &n);
   printf("enter a number: \n");
-  for (i=i;i<=n;i++) {
+  for (i=1;i<=n;i++) {
     scanf("%d", &num);
-    sum+=num;
+    sum= sum + num;
   }
-  avg = sum \n;
+  avg = sum/n;
   printf("Sum = %d \n", sum);
-  printf("avg = %d \n", avg);
+  printf("avg = %f \n", avg);
   return 0;
 }
