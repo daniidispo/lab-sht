@@ -14,10 +14,9 @@ int n, original, r, sum = 0;
     }
 
     if (sum == original)
-        printf("Armstrong number");
+        printf("Armstrong number \n");
     else
-        printf("Not an Armstrong number");
+        printf("Not an Armstrong number \n");
 
     return 0;
-}
 }

@@ -14,8 +14,10 @@ int main() {
         i++;
     }
 
-    if (n > 1 && count == 0)
-        printf("Prime number");
+    if (n > 1){
+      if (count == 0)
+         printf("Prime number");
+  }
     else
         printf("Not a prime number");
 
