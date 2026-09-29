@@ -1,3 +1,17 @@
+/*
+ * 1.Start
+ * 2. Include <stdio.h>
+ * 3. Declare variables a, b for operands and sum, diff, prod, quot, rem for the results
+ * 4. Read the values of a and b from the user
+ * 5. Calculate
+ *     - Addition
+ *     - Subtraction
+ *     - Multiplication
+ *     - Division
+ *     - Modulus
+ *  6. Display all results 
+ *  7. Stop*/
+
 #include <stdio.h>
 
 int main() {
