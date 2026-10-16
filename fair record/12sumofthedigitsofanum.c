@@ -1,3 +1,18 @@
+/*Start
+
+Declare two integer variables n and sum. Initialize sum = 0.
+
+Read the number n from the user.
+
+Repeat steps 5 and 6 while n > 0.
+
+Find the last digit using n % 10 and add it to sum.
+
+Remove the last digit using n = n / 10.
+
+Display the value of sum.
+
+Stop */
 #include <stdio.h>
 int main(){
   int n,sum = 0;

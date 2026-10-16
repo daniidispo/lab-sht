@@ -25,7 +25,7 @@ int main() {
     printf("The first %d natural numbers are :\n", n);
 
     while(i <= n) {
-    printf("%d", i);
+    printf("%d, ", i);
     i++;
   }
 printf ("\n");
